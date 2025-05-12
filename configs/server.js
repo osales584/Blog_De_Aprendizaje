@@ -7,6 +7,7 @@ import morgan from "morgan"
 import multer from "multer"
 import {dbConnection} from "./mongo.js"
 import postRoutes from "../src/post/post.routes.js"
+import commentRoutes from "../src/comment/comment.routes.js"
 
 const upload = multer();
 
@@ -21,6 +22,7 @@ const middlewares = (app) => {
 
 const routes = (app) =>{
     app.use("/learningBlog/v1/post", postRoutes)
+    app.use("/learningBlog/v1/comment", commentRoutes)
 }
 
 const conectarDB = async () =>{

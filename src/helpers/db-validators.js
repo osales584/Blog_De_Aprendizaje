@@ -6,3 +6,10 @@ export const postTitleExists = async (title = "") => {
         throw new Error(`La publicación con el título '${title}' ya existe`);
     }
 };
+
+export const commentBelongsToPost = async (uid = "") => {
+    const post = await Post.findById(uid);
+    if (!post) {
+        throw new Error(`La publicación con el ID '${uid}' no existe`);
+    }
+};
