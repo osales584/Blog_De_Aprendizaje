@@ -8,6 +8,7 @@ import multer from "multer"
 import {dbConnection} from "./mongo.js"
 import postRoutes from "../src/post/post.routes.js"
 import commentRoutes from "../src/comment/comment.routes.js"
+import { swaggerDocs, swaggerUi } from "./swagger.js"
 
 const upload = multer();
 
@@ -23,6 +24,7 @@ const middlewares = (app) => {
 const routes = (app) =>{
     app.use("/learningBlog/v1/post", postRoutes)
     app.use("/learningBlog/v1/comment", commentRoutes)
+    app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs))
 }
 
 const conectarDB = async () =>{

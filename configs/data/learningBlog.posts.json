@@ -1,0 +1,165 @@
+[{
+  "_id": {
+    "$oid": "68217b7939042fea44a621f2"
+  },
+  "title": "Montaje de computadoras en el taller",
+  "description": "Aprendimos a identificar componentes de hardware y a ensamblar computadoras de escritorio paso a paso.",
+  "course": "TALLER",
+  "createdAt": {
+    "$date": "2025-05-12T04:39:21.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68217b8f39042fea44a621f5"
+  },
+  "title": "Instalación de sistemas operativos",
+  "description": "En el taller se practicó la instalación de Windows y Linux, así como la configuración básica de cada sistema.",
+  "course": "TALLER",
+  "createdAt": {
+    "$date": "2025-05-12T04:39:43.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68217ba439042fea44a621f8"
+  },
+  "title": "Mantenimiento preventivo de PCs",
+  "description": "Limpieza interna de computadoras, verificación de componentes y mejora del rendimiento del sistema.",
+  "course": "TALLER",
+  "createdAt": {
+    "$date": "2025-05-12T04:40:04.982Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68217bbb39042fea44a621fb"
+  },
+  "title": "Armado de red LAN en laboratorio",
+  "description": "Se realizó el diseño y montaje de una red local con cableado estructurado y configuración de switches.",
+  "course": "TALLER",
+  "createdAt": {
+    "$date": "2025-05-12T04:40:27.038Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68217bd139042fea44a621fe"
+  },
+  "title": "Uso de software para diagnóstico",
+  "description": "Aprendimos a utilizar herramientas como HWMonitor y CrystalDiskInfo para diagnosticar fallos de hardware.",
+  "course": "TALLER",
+  "createdAt": {
+    "$date": "2025-05-12T04:40:49.890Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68217c0139042fea44a62203"
+  },
+  "title": "Bitácora de práctica en soporte técnico",
+  "description": "Registro de actividades como soporte a usuarios, formateo de equipos y solución de problemas comunes.",
+  "course": "PRACTICA SUPERVISADA",
+  "createdAt": {
+    "$date": "2025-05-12T04:41:37.248Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68217c1c39042fea44a62206"
+  },
+  "title": "Desarrollo de sistema en práctica profesional",
+  "description": "Participación en el desarrollo de un sistema web con Java y MySQL durante la práctica en empresa.",
+  "course": "PRACTICA SUPERVISADA",
+  "createdAt": {
+    "$date": "2025-05-12T04:42:04.598Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68217c3239042fea44a62209"
+  },
+  "title": "Configuración de redes empresariales",
+  "description": "En la práctica supervisada se apoyó en la configuración de routers, switches y VLANs en una empresa.",
+  "course": "PRACTICA SUPERVISADA",
+  "createdAt": {
+    "$date": "2025-05-12T04:42:26.154Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68217c4d39042fea44a6220c"
+  },
+  "title": "Soporte remoto a clientes",
+  "description": "Se brindó asistencia remota a clientes utilizando herramientas como AnyDesk y TeamViewer.",
+  "course": "PRACTICA SUPERVISADA",
+  "createdAt": {
+    "$date": "2025-05-12T04:42:53.692Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68217c5a39042fea44a6220f"
+  },
+  "title": "Documentación técnica de proyectos",
+  "description": "Se elaboró documentación de requerimientos, pruebas y manuales técnicos como parte de la práctica.",
+  "course": "PRACTICA SUPERVISADA",
+  "createdAt": {
+    "$date": "2025-05-12T04:43:06.154Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68217cc439042fea44a62218"
+  },
+  "title": "Introducción al desarrollo con Java",
+  "description": "Se abordaron los fundamentos de programación en Java y se crearon scripts para automatización de tareas.",
+  "course": "TECNOLOGIA",
+  "createdAt": {
+    "$date": "2025-05-12T04:44:52.155Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68217cd239042fea44a6221b"
+  },
+  "title": "Aplicaciones web con Node.js",
+  "description": "Desarrollo de aplicaciones del lado del servidor usando Node.js, Express y bases de datos MongoDB.",
+  "course": "TECNOLOGIA",
+  "createdAt": {
+    "$date": "2025-05-12T04:45:06.184Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68217ce639042fea44a6221e"
+  },
+  "title": "Seguridad informática básica",
+  "description": "Aprendizaje de conceptos clave sobre antivirus, firewalls y protección de datos personales.",
+  "course": "TECNOLOGIA",
+  "createdAt": {
+    "$date": "2025-05-12T04:45:26.936Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68217cfa39042fea44a62221"
+  },
+  "title": "Programación de microcontroladores con Arduino",
+  "description": "Uso de Arduino en proyectos de automatización, integrando sensores y controladores.",
+  "course": "TECNOLOGIA",
+  "createdAt": {
+    "$date": "2025-05-12T04:45:46.015Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68217d1039042fea44a62224"
+  },
+  "title": "Fundamentos del Internet de las Cosas (IoT)",
+  "description": "Conceptos de conectividad de dispositivos inteligentes y uso de plataformas como Blynk y MQTT.",
+  "course": "TECNOLOGIA",
+  "createdAt": {
+    "$date": "2025-05-12T04:46:08.785Z"
+  }
+}]

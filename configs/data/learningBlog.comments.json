@@ -1,0 +1,195 @@
+[{
+  "_id": {
+    "$oid": "682183513a5b29cbfc066558"
+  },
+  "username": "Ana_dev",
+  "content": "¡Excelente explicación sobre el montaje! Justo lo que necesitaba para repasar.",
+  "post": {
+    "$oid": "68217b7939042fea44a621f2"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682183513a5b29cbfc066559"
+  },
+  "username": "Carlos_R",
+  "content": "Muy útil la parte de identificación de componentes. A veces se me olvidan los detalles.",
+  "post": {
+    "$oid": "68217b7939042fea44a621f2"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682183513a5b29cbfc06655a"
+  },
+  "username": "Laura_Estudiante",
+  "content": "Este post me ayudó mucho para mi última práctica de taller. ¡Gracias!",
+  "post": {
+    "$oid": "68217b7939042fea44a621f2"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T10:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682183513a5b29cbfc06655b"
+  },
+  "username": "Pedro_Tec",
+  "content": "¿Algún consejo para manejar la estática al ensamblar los componentes sensibles?",
+  "post": {
+    "$oid": "68217b7939042fea44a621f2"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T10:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682183513a5b29cbfc06655c"
+  },
+  "username": "Sofia_Curiosa",
+  "content": "¡Qué interesante! Siempre quise saber cómo se armaba una PC desde cero.",
+  "post": {
+    "$oid": "68217b7939042fea44a621f2"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T10:25:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682183513a5b29cbfc06655d"
+  },
+  "username": "Luis_Gamer",
+  "content": "Java parece un buen lenguaje para empezar en la programación. Gracias por la intro.",
+  "post": {
+    "$oid": "68217cc439042fea44a62218"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682183513a5b29cbfc06655e"
+  },
+  "username": "Maria_Redes",
+  "content": "Aunque mi área son las redes, siempre es bueno entender los fundamentos de desarrollo. Buen post.",
+  "post": {
+    "$oid": "68217cc439042fea44a62218"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T11:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682183513a5b29cbfc06655f"
+  },
+  "username": "Elena_Progra",
+  "content": "Los scripts de automatización con Java suenan muy prometedores. ¿Podrías dar ejemplos?",
+  "post": {
+    "$oid": "68217cc439042fea44a62218"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T11:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682183513a5b29cbfc066560"
+  },
+  "username": "David_Bits",
+  "content": "¡Java es un clásico! Me alegra ver que se sigue enseñando lo fundamental.",
+  "post": {
+    "$oid": "68217cc439042fea44a62218"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T11:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682183513a5b29cbfc066561"
+  },
+  "username": "Admin_Blog",
+  "content": "Confirmado: Java sigue siendo una herramienta poderosa y versátil en el mundo tech.",
+  "post": {
+    "$oid": "68217cc439042fea44a62218"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T11:25:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682183513a5b29cbfc066562"
+  },
+  "username": "Juan_Soporte",
+  "content": "Muy bien detallada la bitácora. Refleja el día a día del soporte técnico.",
+  "post": {
+    "$oid": "68217c0139042fea44a62203"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682183513a5b29cbfc066563"
+  },
+  "username": "Usuario_Activo",
+  "content": "Me siento identificado con los problemas comunes que mencionas. ¡El formateo es pan de cada día!",
+  "post": {
+    "$oid": "68217c0139042fea44a62203"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T12:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682183513a5b29cbfc066564"
+  },
+  "username": "Comentarista_Estrella",
+  "content": "Excelente forma de documentar la experiencia en prácticas. Sirve mucho para el futuro.",
+  "post": {
+    "$oid": "68217c0139042fea44a62203"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T12:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682183513a5b29cbfc066565"
+  },
+  "username": "FanDelCurso",
+  "content": "¿Qué software recomiendas para llevar un control de tickets de soporte personal?",
+  "post": {
+    "$oid": "68217c0139042fea44a62203"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T12:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682183513a5b29cbfc066566"
+  },
+  "username": "Aprendiz_Entusiasta",
+  "content": "¡Inspirador! Espero pronto estar realizando mis prácticas y tener experiencias similares.",
+  "post": {
+    "$oid": "68217c0139042fea44a62203"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T12:25:00.000Z"
+  }
+}]

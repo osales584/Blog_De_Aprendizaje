@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "d0d25719-6a4b-465f-89a2-21f87dfdebe4",
+		"name": "learningBlog",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "37645671"
+	},
+	"item": [
+		{
+			"name": "Post",
+			"item": [
+				{
+					"name": "Agregar Publicación",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "Fundamentos del Internet de las Cosas (IoT)",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "description",
+									"value": "Conceptos de conectividad de dispositivos inteligentes y uso de plataformas como Blynk y MQTT.",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "course",
+									"value": "PRACTICA SUPERVISADA",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "course",
+									"value": "TALLER",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "course",
+									"value": "TECNOLOGIA",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": "http://127.0.0.1:3000/learningBlog/v1/post/createPost"
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Publicaciones",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/learningBlog/v1/post/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"learningBlog",
+								"v1",
+								"post",
+								""
+							],
+							"query": [
+								{
+									"key": "order",
+									"value": "desc",
+									"disabled": true
+								},
+								{
+									"key": "course",
+									"value": "TALLER",
+									"disabled": true
+								},
+								{
+									"key": "sortBy",
+									"value": "createdAt",
+									"disabled": true
+								},
+								{
+									"key": "title",
+									"value": "a",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comment",
+			"item": [
+				{
+					"name": "Agregar Comentario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"osales\", \r\n    \"content\": \"Este es un comentario de segunda prueba de Taller\",\r\n    \"post\": \"681e16d68fbb8d6136bced6c\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:3000/learningBlog/v1/comment/createComment"
+					},
+					"response": []
+				},
+				{
+					"name": "Listar comentarios de una publicación",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://127.0.0.1:3000/learningBlog/v1/comment/findComment/681e16d68fbb8d6136bced6c"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
