@@ -42,6 +42,7 @@ export const getCommentsByPost = async (req, res) => {
 
         const comments = await Comment.find({ post: uid })
             .populate("post", { title: 1, _id: 0 })
+            .sort({ createdAt: -1 });
 
         return res.status(200).json({
             success: true,
